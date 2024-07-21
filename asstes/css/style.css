@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root{
+    --hijau: #77c720;
+    --putih: #ffffff;
+    --hijauGelap: #006400 ;
+    --hitam: #222222;
+    --abu:#666666;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* navbar  */
+
+nav{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+nav .navbar-brand{
+    color: var(--hijau);
+    transition: all 0.3s ease 0s;
+}
+
+nav .navbar-brand:hover{
+    color: var(--hijauGelap);
+}
+
+nav .logo{
+    max-width: 6rem;
+}
+
+nav .nav-link:hover{
+    color: var(--hijau);
+}
+
+nav .nav-link.active{
+    background-color: var(--hijau);
+}
+
+nav .nav-link.active:hover{
+    background-color: var(--hijauGelap);
+}
+
+/* end navbar  */
+
+/* hero */
+
+#hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+#hero .wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+#hero .hero-text {
+    position: absolute;
+    color: var(--putih);
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#hero .hero-text h1 {
+    font-size: 4em;
+    font-weight: 700;
+}
+
+#hero .hero-text p {
+    font-size: 1.3em;
+    font-weight: 400;
+    max-width: 900px;
+}
+
+/* end hero  */
+
+#about h1{
+    font-size: 3.5em;
+    font-weight: 800;
+}
+
+/* mission */
+
+#mission h1{
+    font-size: 4em;
+    font-weight: 800;
+    color: var(--hitam) ;
+}
+
+#mission .head{
+    font-size: 1.2em;
+    font-weight: 300;
+    color: var(--hitam) ;
+}
+
+#mission i{
+    color: var(--hijau);
+}
+
+#mission .card:hover{
+    transition: all 0.3s ease 0s;
+}
+
+#mission .card:hover{
+    background-color: var(--hijauGelap);
+    color:var(--putih)
+}
+/* end mission */
+
+/* touch */
+
+#touch {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+#touch .wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#touch img {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+}
+
+#touch span{
+    color: var(--hijau);
+}
+
+#touch a{
+    color: var(--putih);
+    background-color: var(--hijau);
+    font-weight: 500;
+    transition: all 0.3s ease 0s;
+}
+
+#touch a:hover{
+    background-color: var(--hijauGelap);
+}
+
+#touch .touch-text {
+    position: absolute;
+    color: var(--putih);
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#touch .touch-text h1 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+#touch .touch-text p {
+    font-size: 1.1em;
+    font-weight: 400;
+    max-width: 900px;
+}
+
+/* end touch */
