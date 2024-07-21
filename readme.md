@@ -1,99 +1,91 @@
-# Green Charity Website
+# Situs Web Green Charity
 
-Welcome to the Green Charity website! This README provides an overview of the site's structure, components, and how to get started with it.
+Selamat datang di situs web Green Charity! README ini menyediakan gambaran umum tentang struktur situs, komponen, dan cara memulai proyek ini.
 
-## Overview
+## Gambaran Umum
 
-The Green Charity website is designed to promote environmental awareness and the mission of the Green Charity organization. The site features various sections including a hero section, about us, mission, latest news, contact form, and a footer.
+Situs web Green Charity dirancang untuk mempromosikan kesadaran lingkungan dan misi organisasi Green Charity. Situs ini memiliki berbagai bagian termasuk hero section, tentang kami, misi, berita terbaru, formulir kontak, dan footer.
 
-## Project Structure
+## Struktur Proyek
 
-Here's a breakdown of the HTML file:
+Berikut adalah rincian dari file HTML:
 
-### Head Section
+### Bagian Head
 
-- **Meta Tags**: Define character set and viewport settings for responsive design.
-- **Title**: Sets the title of the webpage.
-- **CSS Links**: Includes custom stylesheet, Google Fonts, Bootstrap, and AOS (Animate On Scroll).
-- **Font Links**: Google Fonts for typography.
+- **Meta Tags**: Mendefinisikan karakter set dan pengaturan viewport untuk desain responsif.
+- **Title**: Menetapkan judul halaman web.
+- **CSS Links**: Termasuk stylesheet kustom, Google Fonts, Bootstrap, dan AOS (Animate On Scroll).
+- **Font Links**: Google Fonts untuk tipografi.
 
 ### Navbar
 
-- **Branding**: Includes logo and site name.
-- **Navigation Links**: Home, About, Mission, Contact, and Get In Touch.
+- **Branding**: Termasuk logo dan nama situs.
+- **Tautan Navigasi**: Home, About, Mission, Contact, dan Get In Touch.
 
 ### Hero Section
 
-- **Image**: Full-width background image with text overlay.
-- **Text**: Heading and a brief description about saving nature.
+- **Gambar**: Gambar latar belakang penuh dengan teks overlay.
+- **Teks**: Judul dan deskripsi singkat tentang menyelamatkan alam.
 
-### About Section
+### Bagian Tentang Kami
 
-- **Content**: Information about the Green Charity organization.
-- **Image and Text**: Description of the organization’s mission and goals.
+- **Konten**: Informasi tentang organisasi Green Charity.
+- **Gambar dan Teks**: Deskripsi tentang misi dan tujuan organisasi.
 
-### Mission Section
+### Bagian Misi
 
-- **Cards**: Features mission statements with icons and descriptions.
-- **Content**: Details on ecosystem preservation, innovation, and protecting wildlife.
+- **Kartu**: Menampilkan pernyataan misi dengan ikon dan deskripsi.
+- **Konten**: Detail tentang pelestarian ekosistem, inovasi, dan melindungi satwa liar.
 
-### Touch Section
+### Bagian Touch
 
-- **Image**: Full-width background image with promotional text.
-- **Text**: Information about 24/7 customer service and a call-to-action button.
+- **Gambar**: Gambar latar belakang penuh dengan teks promosi.
+- **Teks**: Informasi tentang layanan pelanggan 24/7 dan tombol call-to-action.
 
-### Information Section
+### Bagian Informasi
 
-- **Timeline**: Latest news articles with images and descriptions.
-- **Content**: Recent developments and achievements of Green Charity.
+- **Timeline**: Artikel berita terbaru dengan gambar dan deskripsi.
+- **Konten**: Perkembangan terbaru dan pencapaian Green Charity.
 
-### Contact Section
+### Bagian Kontak
 
-- **Form**: Input fields for name, email, and message with a submit button.
+- **Formulir**: Bidang input untuk nama, email, dan pesan dengan tombol kirim.
 
 ### Footer
 
-- **Content**: Copyright notice and social media icons.
+- **Konten**: Pemberitahuan hak cipta dan ikon media sosial.
 
-### Scripts
+### Script
 
-- **AOS**: Initializes Animate On Scroll for animations.
-- **Bootstrap JS**: Includes Bootstrap's JavaScript bundle for interactive components.
+- **AOS**: Menginisialisasi Animate On Scroll untuk animasi.
+- **Bootstrap JS**: Termasuk bundle JavaScript Bootstrap untuk komponen interaktif.
 
-## Getting Started
+## Memulai
 
-1. **Clone the Repository**: 
+1. **Clone Repository**: 
    ```sh
    git clone <repository-url>
    ```
 
-2. **Navigate to Project Directory**: 
+2. **Navigasi ke Direktori Proyek**: 
    ```sh
    cd <project-directory>
    ```
 
 3. **Install Dependencies**: 
-   No specific dependencies other than those linked in the HTML.
+   Tidak ada ketergantungan khusus selain yang ditautkan dalam HTML.
 
-4. **Open the HTML File**: 
-   Open `index.html` in your browser to view the website.
+4. **Buka File HTML**: 
+   Buka `index.html` di browser Anda untuk melihat situs web.
 
-## Customization
+## Kustomisasi
 
-- **CSS**: Modify `./asstes/css/style.css` for custom styling.
-- **Images**: Replace images in the `./asstes/imgs/` directory with your own.
-- **Content**: Update the text and links directly in the HTML file.
+- **CSS**: Modifikasi `./asstes/css/style.css` untuk styling kustom.
+- **Gambar**: Ganti gambar di direktori `./asstes/imgs/` dengan milik Anda sendiri.
+- **Konten**: Perbarui teks dan tautan langsung di file HTML.
 
-## Dependencies
+## Ketergantungan
 
-- **Bootstrap**: For responsive design and UI components.
-- **AOS**: For scroll animations.
-- **Google Fonts**: For typography.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For further information or inquiries, please contact us at [info@greencharity.org](mailto:info@greencharity.org).
+- **Bootstrap**: Untuk desain responsif dan komponen UI.
+- **AOS**: Untuk animasi saat di-scroll.
+- **Google Fonts**: Untuk tipografi.
